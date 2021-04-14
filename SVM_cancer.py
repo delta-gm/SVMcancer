@@ -4,11 +4,7 @@ import numpy as np
 import scipy.optimize as opt
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-%matplotlib inline 
 import matplotlib.pyplot as plt
-
-!wget -O cell_samples.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cell_samples.csv
-
 
 cell_df = pd.read_csv("cell_samples.csv")
 cell_df.head()
